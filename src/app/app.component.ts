@@ -10,5 +10,17 @@ import { RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
+  Weekday = Weekday;
   title = 'LevelUp';
+  currentWeekday: Weekday = new Date().getDay();
+}
+
+enum Weekday {
+  Sunday,
+  Monday,
+  Tuesday,
+  Wednesday,
+  Thursday,
+  Friday,
+  Saturday,
 }
