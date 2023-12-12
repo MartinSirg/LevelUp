@@ -1,11 +1,11 @@
 {
   "name": "level-up",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "ng build --base-href https://martinsirg.github.io/",
+    "deploy": "ng build --base-href https://martinsirg.github.io/LevelUp/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
